@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INDEX</title>
+    <style>
+        .myDiv {
+          height: 25%;
+          width: 10%;
+          border: 5px outset gray;
+          background-color: lightgray;
+          text-align: center;
+          display:block;
+          text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1>  WELCOME </h1>
+
+        <div class ="myDiv" id ="wrapper" >
+            <button class="btn btn-success"> <a href="{% url 'uploadfile_home' %}"> UPLOAD FILE</a></button>
+        </div>
+
+        <br><br>
+        <div class ="myDiv">
+            <button class="btn btn-success"> <a href="{% url 'data-pie' %}"> UPLOAD DATA</a></button>
+        </div>
+
+    </center>
+</body>
+</html>
